@@ -1,0 +1,53 @@
+
+
+body {
+font-family: Roboto;
+
+}
+
+
+
+.button {
+width: 140px;
+background-color: #001f3f;
+text-align: center;
+color: white;
+padding: 10px;
+border-radius: 5px;
+}
+
+.button2 {
+width: 140px;
+background-color: #3D9970;
+text-align: center;
+color: white;
+padding: 10px;
+border-radius: 15px;
+}
+
+.button3 {
+width: 140px;
+background-color: #85144b;
+text-align: center;
+color: white;
+padding: 10px;
+border-radius: 5px;
+}
+
+.button:hover {
+width: 145px;
+border-radius: 20px;
+}
+
+.button2:hover {
+width: 150px;
+border-radius: 5px;
+}
+
+.button3:hover {
+width: 150px;
+border-radius: 30px;
+}
+.transition {
+ transition: border-radius 0.3s linear, width 0.5s linear;
+}
